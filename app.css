@@ -1,0 +1,45 @@
+body {
+    background-color: #f5d9d5;
+    font-family: "nunito", sans-serif;
+}
+
+#mainNav .navbar-brand {
+    color: red;
+}
+
+#mainNav {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+#mainNav .nav-link:hover {
+    color: red;
+}
+
+@media(max-width:1070px) {
+    #museum {
+        font-size: 1.5rem;
+    }
+}
+
+h3 {
+    font-weight: 100;
+}
+
+p {
+    font-weight: 100;
+}
+
+.navbar.scrolled {
+    background-color: rgb(222, 192, 222);
+    transition: background 200ms
+}
+
+#section {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
